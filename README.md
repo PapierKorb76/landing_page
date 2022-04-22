@@ -11,6 +11,7 @@ HTML:
  - Other Medias in HTML
  
  CSS:
+ - Selectors
  - Base Styling
  - Alignment 
  - Axes
