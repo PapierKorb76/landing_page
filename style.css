@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #eeeeee;
@@ -126,7 +132,7 @@ flex: 1 1 auto;
     width: 90%;
     display: flex;
     justify-content: center;
-    column-gap: 2rem;
+    column-gap: 3rem;
     flex-wrap: wrap;
 }
 
@@ -135,13 +141,22 @@ flex: 1 1 auto;
     border-radius: 5px;
 }
 
+.image-container h1{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #6f4499;
+}
+
+
+
 .quote-container{
-margin-top: 80px;
-text-align: center;
-font-size: 125%;
-width: 100%;
-background-color: #e5df88;
-padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 125%;
+    width: 100%;
+    background-color: #e5df88;
+    padding: 20px;
 }
 
 .quote-container h4{
@@ -149,5 +164,82 @@ padding: 20px;
     margin-top: 10px;
     text-align: right;
 }
-    
+
+
+.call-to-action-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #a37eba;
+    width: 75%;
+    height: 150px;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+.call-to-action .message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    margin-left: 80px;
+}
+
+.call-to-action .message h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.sign-up-btn{
+    display: flex;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.sign-up-btn button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    color: #eeeeee;
+    background-color: #6f4499;
+    width: 50%;
+    height: 25%;
+}
+
+.sign-up-btn button a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+.sign-up-btn button:hover{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;    
+    background-color: #6f4499;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+  }
+
+
 
