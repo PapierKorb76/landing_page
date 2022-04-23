@@ -6,6 +6,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #eeeeee;
 }
 
 *{
@@ -68,6 +69,17 @@ width: 100%;
 font-size: 32px;
 margin: 0px 25px 10px 25px;
 font-weight: 500;
+padding: 20px;
+flex: 1 1 auto;
+}
+
+.starter-col-1 h1{
+    font-size: 175%;
+    margin-bottom: 15px;
+}
+
+.starter-col-1 p{
+    margin-bottom: 15px;
 }
 
 .starter-col-1 button{
@@ -80,14 +92,62 @@ font-weight: 500;
     font-weight: bold;
 }
 
+.starter-col-1 button a{
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.starter-col-1 button a:hover{
+    text-decoration: none;
+    color: #e8e8e8;
+    font-weight: 800;
+}
+
 .starter-col-2 {
     width: 50%;
-    
+    flex: 1 1 auto;
+    margin-right: 20px;
 }
 
 .starter-col-2 img{
     border-radius: 5px;
     width: 600px;
+}
+
+#volleyball-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.image-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.image-container img{
+    border: 5px solid #6f4499;
+    border-radius: 5px;
+}
+
+.quote-container{
+margin-top: 80px;
+text-align: center;
+font-size: 125%;
+width: 100%;
+background-color: #e5df88;
+padding: 20px;
+}
+
+.quote-container h4{
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: right;
 }
     
 
